@@ -14,17 +14,15 @@ export default function Home() {
         />
       </header>
 
-      <div className="flex min-h-[calc(100svh-8rem)] w-full flex-col items-center justify-center gap-8">
-        <p className="w-3/4 text-left text-5xl font-bold text-black md:text-6xl leading-none">
+      <div className="flex min-h-[calc(100svh-8rem)] w-full flex-col items-center justify-center gap-6 md:gap-8">
+        <p className="w-full text-left text-4xl font-bold text-black sm:text-5xl md:w-3/4 md:text-6xl leading-none">
           your real life.
         </p>
-        <p className="w-3/4 text-right text-6xl font-bold text-black md:text-6xl leading-none">
+        <p className="w-full text-right text-4xl font-bold text-black sm:text-5xl md:w-3/4 md:text-6xl leading-none">
           infinitely playable.
         </p>
 
-        <div className="pt-4">
-        </div>
-        <a href="https://form.typeform.com/to/CV6jquJl" className="rounded-full px-6 py-3 text-3xl text-black font-bold self-center">sign up for beta the waitlist</a>
+        <a href="https://form.typeform.com/to/CV6jquJl" className="mt-4 self-center rounded-full px-6 py-3 text-center text-xl font-bold text-black sm:text-2xl md:text-3xl">sign up for beta the waitlist</a>
       </div>
     </main>
   );
